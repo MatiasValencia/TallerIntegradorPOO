@@ -6,8 +6,9 @@ public class Usuario extends Admin {
     private ArrayList<String> listaDeseados; // Lista de Amigos
     private ArrayList<String> favoritos; //Articulos Favoritos
     //Constructor
-    public Usuario(String nombreUsuario, String correo, ArrayList<String> listaAmigos, ArrayList<String> favoritos;) {
-        super(nombreUsuario, correo);
+    public Usuario(String nombreUsuario, String password, String correo, String formaDePago, ArrayList<String> listaAmigos,
+                    ArrayList<String> favoritos) {
+        super(nombreUsuario, password, correo, formaDePago);
         this.listaAmigos = new ArrayList<>();
         this.listaDeseados = new ArrayList<>();
         this.favoritos = new ArrayList<>();
