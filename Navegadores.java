@@ -21,5 +21,5 @@ public class Navegadores extends Software {
     }
 
     public Boolean getTieneVPN() {return tieneVPN;}
-    
+    public Boolean getTieneAdBlocker() {return tieneAdBlocker;}
 }
