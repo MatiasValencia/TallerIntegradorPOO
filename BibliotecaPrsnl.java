@@ -5,7 +5,7 @@ public class BibliotecaPrsnl {
     private ArrayList<String> articulosComprados;
     //Constructor
     public BibliotecaPrsnl(ArrayList<String> articulosComprados) {
-        this.articulosComprados = new ArrayList<>();
+        this.articulosComprados = new ArrayList<String>();
     }
     //Getters
     public ArrayList<String> getArticulosComprados() {return articulosComprados;}
