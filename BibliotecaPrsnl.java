@@ -1,12 +1,12 @@
-import java.util.ArrayList; //Se importa ArrayList
+import java.util.ArrayList;
 
 public class BibliotecaPrsnl {
     //Atributos
-    private ArrayList<String> articulosComprados;
+    private ArrayList<BibliotecaGral> articulosComprados;
     //Constructor
-    public BibliotecaPrsnl(ArrayList<String> articulosComprados) {
-        this.articulosComprados = new ArrayList<String>();
+    public BibliotecaPrsnl(ArrayList<BibliotecaGral> articulosComprados) {
+        this.articulosComprados = new ArrayList<BibliotecaGral>();
     }
-    //Getters
-    public ArrayList<String> getArticulosComprados() {return articulosComprados;}
+    //Getter
+    public ArrayList<BibliotecaGral> getArticulosComprados() {return articulosComprados;}
 }

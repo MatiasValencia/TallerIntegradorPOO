@@ -32,11 +32,11 @@ public class Admin {
     public void setUsuario(Usuario usuario) {this.usuario = usuario;}
 
     //Customers
-    public void agregarArticulo(BibliotecaGral biblioteca, ArrayList<String> articulos, String articulo) {
+    public void agregarArticulo(BibliotecaGral biblioteca, ArrayList<BibliotecaGral> articulos, String articulo) {
         biblioteca.articulos.add(articulo);
         System.out.println(articulo + " fue agregado a la biblioteca general.");
     }
-    public void eliminarArticulo(BibliotecaGral biblioteca, ArrayList<String> articulos, String articulo) {
+    public void eliminarArticulo(BibliotecaGral biblioteca, ArrayList<BibliotecaGral> articulos, String articulo) {
         biblioteca.articulos.remove(articulo);
         System.out.println(articulo + " fue eliminado de la biblioteca general.");
     }
